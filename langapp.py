@@ -3,6 +3,7 @@ from flask_cors import CORS
 from googletrans import Translator
 from gtts import gTTS
 import cv2
+from ultralytics import YOLO
 import numpy as np
 import uuid
 import logging
